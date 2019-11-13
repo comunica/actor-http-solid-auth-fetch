@@ -1,6 +1,6 @@
 {
   "name": "@comunica/actor-http-solid-auth-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fetch http actor using the solid.auth library",
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-http-solid-auth-fetch",
   "lsd:components": "components/components.jsonld",
