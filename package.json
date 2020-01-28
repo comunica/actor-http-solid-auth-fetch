@@ -49,7 +49,7 @@
     "@comunica/bus-http": "^1.9.2",
     "@comunica/core": "^1.9.2",
     "@comunica/mediatortype-time": "^1.9.2",
-    "@types/jest": "^24.0.22",
+    "@types/jest": "^25.1.0",
     "@types/node": "^13.1.0",
     "coveralls": "^3.0.7",
     "jest": "^24.9.0",
