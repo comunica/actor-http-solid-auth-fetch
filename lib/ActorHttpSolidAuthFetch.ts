@@ -1,7 +1,7 @@
 import {ActorHttp, IActionHttp, IActorHttpOutput} from "@comunica/bus-http";
 import {IActorArgs} from "@comunica/core";
 import {IMediatorTypeTime} from "@comunica/mediatortype-time";
-const solid = require('solid-auth-client');
+import {fetch} from "@inrupt/solid-client-authn-browser";
 
 export class ActorHttpSolidAuthFetch extends ActorHttp {
 
@@ -14,7 +14,7 @@ export class ActorHttpSolidAuthFetch extends ActorHttp {
   }
 
   public run(action: IActionHttp): Promise<IActorHttpOutput> {
-    return solid.fetch(action.input, action.init);
+    return fetch(action.input, action.init);
   }
 
 }
