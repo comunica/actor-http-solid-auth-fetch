@@ -1,3 +1,5 @@
+# DEPRECATED in favor of https://github.com/comunica/comunica-feature-solid
+
 # Comunica node-fetch HTTP Actor
 
 [![npm version](https://badge.fury.io/js/%40comunica%2Factor-http-solid-auth-fetch.svg)](https://www.npmjs.com/package/@comunica/actor-http-solid-auth-fetch)
